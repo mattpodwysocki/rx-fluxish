@@ -6,6 +6,26 @@ This is an implementation of a Flux-like architecture using [RxJS](https://githu
 var Rx = require('rx-lite');
 ```
 
+## Running the application ##
+
+To run the application, first clone the repository:
+
+```bash
+$ git clone https://github.com/mattpodwysocki/rx-fluxish.git
+```
+
+Then install the dependencies via NPM:
+```bash
+$ npm install
+```
+
+Then build the application with the following:
+```bash
+$ npm start
+```
+
+Then simply open `index.html` in your browser of choice.
+
 ## Alternate Version ##
 
 Currently, this version uses no keys and each intent is an `Rx.Subject`, however, this doesn't have to be the case.  Instead, we could have a single subject for the entire intent with a set of keys to determine our actions.
