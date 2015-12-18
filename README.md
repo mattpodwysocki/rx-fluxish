@@ -6,6 +6,8 @@ This is an implementation of a Flux-like architecture using [RxJS](https://githu
 var Rx = require('rx-lite');
 ```
 
+This is based on the the original article by Justin Woo on [Using RxJS instead of Flux with React to organize data flow](https://gist.github.com/justinwoo/08f9f8fcdcf865025f18)
+
 ## Running the application ##
 
 To run the application, first clone the repository:
